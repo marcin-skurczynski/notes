@@ -1,0 +1,19 @@
+def my_method(parameter):
+  print(parameter) 
+  
+my_method("Marcin")                        <- the program goes back to see what to do with "my_method" (and displays Marcin)
+my_method("Ola")
+
+
+
+def code(given_word, shift):                <- "given_word" comes from "input"
+  do something
+ 
+ 
+def decode(given_word, shift):
+  code(given_word, -shift)
+  
+  
+  
+  
+  
