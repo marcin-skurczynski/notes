@@ -1,0 +1,6 @@
+import string 
+ alfa=string.ascii_letters
+ len(alfa)
+ alfa[54%len(alfa)]                   <- % closes the loop at the number provided right afer (e.g. [54%52] would display 2) \
+                                                                                                (54 podzielić na 52 zostawia resztę=2)
+         
