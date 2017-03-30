@@ -5,3 +5,8 @@ Specs for the program (from user's perspective):
 - Software should distinguish between small and capital letters
 - Software should not vrasg on z/Z when coding/decoding
 - Software should deal with blank spaces and very long sentences
+
+
+
+What if shift is 20? -45? Will it work?
+What happens with "Z" and punctuation?
