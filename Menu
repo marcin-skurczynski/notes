@@ -1,0 +1,7 @@
+Menu loop
+  if  choice==1:
+      code
+  if choice==2:
+      decode
+  if choice==3:
+      exit
