@@ -1,0 +1,7 @@
+Specs for the program (from user's perspective):
+- I would like to enter few sentences at the time (one by one)
+- I would like to cipher and decipher
+- I would like to choose the shift of cipher
+- Software should distinguish between small and capital letters
+- Software should not vrasg on z/Z when coding/decoding
+- Software should deal with blank spaces and very long sentences
