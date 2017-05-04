@@ -2,3 +2,9 @@
     -> SELECT * FROM [Customers]
     
 2. Select people (customers) living in Germany
+    -> SELECT * FROM [Customers] WHERE Country='Germany'
+    
+3. Show orders with quantity greater than 10
+    -> SELECT * FROM [OrderDetails] WHERE Quantity>10
+    
+4. Connect customers & orders. Show quantity per customer
