@@ -8,3 +8,9 @@
     -> SELECT * FROM [OrderDetails] WHERE Quantity>10
     
 4. Connect customers & orders. Show quantity per customer
+    -> SELECT A.ContactName, B.*, C.*
+    FROM Customers A, Orders B, OrderDetails C
+    WHERE A.CustomerID = B.CustomerID
+    AND B.OrderID = C.OrderID
+    AND Quantity>10
+    ORDER BY A.ContactName
