@@ -1,0 +1,8 @@
+SELECT *        <- select all items
+WHERE           <- condition
+LIKE            <- condition that a filtered item includes something
+' '             <- condition to include
+'%x%'           <- the item must have x in the middle of the word
+'%x'            <- the item must end with x
+AND, OR         <- conditioning 
+( )             <- use bracketts to keep the command clear
