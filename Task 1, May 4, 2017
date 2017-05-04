@@ -1,0 +1,4 @@
+1. Show all elements in the table (any table)
+    -> SELECT * FROM [Customers]
+    
+2. Select people (customers) living in Germany
