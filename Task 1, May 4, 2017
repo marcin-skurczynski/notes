@@ -1,0 +1,16 @@
+1. Show all elements in the table (any table)
+    -> SELECT * FROM [Customers]
+    
+2. Select people (customers) living in Germany
+    -> SELECT * FROM [Customers] WHERE Country='Germany'
+    
+3. Show orders with quantity greater than 10
+    -> SELECT * FROM [OrderDetails] WHERE Quantity>10
+    
+4. Connect customers & orders. Show quantity per customer
+    -> SELECT A.ContactName, B.*, C.*
+    FROM Customers A, Orders B, OrderDetails C
+    WHERE A.CustomerID = B.CustomerID
+    AND B.OrderID = C.OrderID
+    AND Quantity>10
+    ORDER BY A.ContactName

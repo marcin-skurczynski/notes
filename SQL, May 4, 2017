@@ -1,0 +1,17 @@
+SELECT *        <- select all items
+WHERE           <- condition
+LIKE            <- condition that a filtered item includes something
+' '             <- condition to include
+'%x%'           <- the item must have x in the middle of the word
+'%x'            <- the item must end with x
+AND, OR         <- conditioning 
+( )             <- use bracketts to keep the command clear
+FROM            <- choose the column  you want to focus on
+GROUP BY        <- order by selected table
+
+
+
+SELECT A.ContactName, B.* 
+FROM Customers A, Orders B
+WHERE A.CustomerID = B.CustomerID
+ORDER BY A.ContactName
